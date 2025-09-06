@@ -12,10 +12,14 @@
     </style>
   </head>
   <body>
-    <model-viewer src="kitchen.glb" ar auto-rotate camera-controls exposure="1" shadow-intensity="1">
-      <button slot="hotspot-1" data-position="0 1 0" data-normal="0 1 0">
-        <a href="https://docs.google.com/spreadsheets/d/1-S-CvDZ1sXiPHcTrUYshAFOXdnao501dVzpCl7imm8I/edit?usp=sharing" target="_blank">Fridge</a>
+    <button slot="hotspot-1" data-position="0 1 0" data-normal="0 1 0">
+        <a href="https://docs.google.com/spreadsheets/d/1-S-CvDZ1sXiPHcTrUYshAFOXdnao501dVzpCl7imm8I/edit?usp=sharing" target="_blank">Spreadsheet</a>
       </button>
+    <model-viewer src="kitchen.glb" ar auto-rotate camera-controls exposure="1" shadow-intensity="1">
+      <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
+        Activate AR
+      </button>
+      
     </model-viewer>
   </body>
 </html>
