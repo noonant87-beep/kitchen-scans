@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Kitchen Scan</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js" />
+    <style>
+      model-viewer {
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <model-viewer src="kitchen.glb" ar auto-rotate camera-controls exposure="1" shadow-intensity="1">
+      <button slot="hotspot-1" data-position="0 1 0" data-normal="0 1 0">
+        <a href="https://docs.google.com/spreadsheets/d/1-S-CvDZ1sXiPHcTrUYshAFOXdnao501dVzpCl7imm8I/edit?usp=sharing" target="_blank">Fridge</a>
+      </button>
+    </model-viewer>
+  </body>
+</html>
